@@ -1,4 +1,4 @@
-# portfolio
+portfolio
 
 Welcome to my portfolio repository! This space houses a collection of my projects, showcasing my skills and experiences. Through this repository, my aim is to highlight my journey, creativity, and dedication.
 
