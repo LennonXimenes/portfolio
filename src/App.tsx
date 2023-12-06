@@ -1,8 +1,16 @@
+import { Header } from "./components/Header"
+import { Footer } from "./components/Footer"
+import { GlobalStyles } from "./styles/global"
+import { GlobalReset } from "./styles/reset"
+
 export const App = () => {
 
   return (
-    <main>
-      <h1>Hello, Lennon!</h1>
-    </main>
+    <div className="App">
+      <GlobalReset />
+      <GlobalStyles />
+      <Header />
+      <Footer />
+    </div>
   )
 }
