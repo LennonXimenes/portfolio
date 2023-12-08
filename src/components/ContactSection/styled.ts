@@ -10,7 +10,7 @@ export const StyledContactSection = styled.section`
     justify-content:space-around;
     align-items: center;
 
-    padding-top: 3rem;
+    padding-top: 5em;
     padding-bottom: 3rem;
 
     .titleParagraphContact {
@@ -19,6 +19,8 @@ export const StyledContactSection = styled.section`
 
         display: flex;
         flex-direction: column;
+
+        padding: 0.5rem;
 
         h1 {
             width: 100%;

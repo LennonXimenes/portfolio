@@ -15,7 +15,7 @@ export const ContactSection = () => {
                 <li>
                     <FaWhatsapp size={35} color="#623CEA" />
                     <div>
-                        <FontTitle>My phone</FontTitle>
+                        <FontTitle>Phone</FontTitle>
                         <FontParagraph>+5524992470744</FontParagraph>
                     </div>
                 </li>
@@ -23,7 +23,7 @@ export const ContactSection = () => {
                 <li>
                     <MdOutlineEmail size={35} color="#623CEA" />
                     <div>
-                        <FontTitle>My email</FontTitle>
+                        <FontTitle>E-mail</FontTitle>
                         <FontParagraph>lennon_ximenes@hotmail.com</FontParagraph>
                     </div>
                 </li>
@@ -31,7 +31,7 @@ export const ContactSection = () => {
                 <li>
                     <FaLinkedinIn size={35} color="#623CEA" />
                     <div>
-                        <FontTitle>My linkedin</FontTitle>
+                        <FontTitle>LinkedIn</FontTitle>
                         <FontParagraph><a href="https://www.linkedin.com/in/lennon-ximenes/" target="_blank">Lennon Ximenes</a> </FontParagraph>
                     </div>
                 </li>
