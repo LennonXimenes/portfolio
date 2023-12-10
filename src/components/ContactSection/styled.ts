@@ -7,7 +7,7 @@ export const StyledContactSection = styled.section`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 
     padding-top: 5em;
