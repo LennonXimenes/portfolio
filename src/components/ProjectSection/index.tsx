@@ -7,9 +7,6 @@ import { FontParagraph, FontTitle } from "../../styles/typograph";
 export const ProjectSection = () => {
     const { repos } = useContext(RepoContext);
 
-    console.log(repos)
-
-
 
     return (
         <StyledProjectSection>
