@@ -167,7 +167,7 @@ export const StyledContactSection = styled.section`
 @media (min-width: 1440px){
     .titleParagraphContact {
         height: auto;
-        width: 40%;
+        width: 43%;
 
         display: flex;
         flex-direction: column;

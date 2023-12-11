@@ -11,6 +11,8 @@ export const StyledHeader = styled.header`
 
     background-color: var(--color-black);
 
+    border-bottom: .1575rem solid var(--color-white);
+
     div {
         h1 {
             color: var(--color-white);

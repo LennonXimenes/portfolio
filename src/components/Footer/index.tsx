@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <StyledFooter>
             <div className="boxPicParagraphFooter">
-                <img src="src\assets\LAX.jpeg" alt="" />
+                <img src="src\assets\LAX.jpeg" />
                 <div className="boxTitleParagraphFooter">
                     <FontTitle>Thank you!</FontTitle>
                     <FontParagraph>Follow me on my social networks and let's talk</FontParagraph>
