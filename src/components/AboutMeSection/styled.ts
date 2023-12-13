@@ -10,7 +10,7 @@ export const StyledAboutMeSection = styled.section`
     justify-content: center;
     align-items: left;
 
-    padding-top: 3rem;
+    padding-top: 7rem;
     padding-bottom: 5rem;
 
     border-bottom: .1875rem solid var(--color-primary);

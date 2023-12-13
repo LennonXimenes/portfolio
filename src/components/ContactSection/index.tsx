@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 export const ContactSection = () => {
     return (
-        <StyledContactSection>
+        <StyledContactSection id="contacts">
             <div className="titleParagraphContact">
                 <FontTitle>Let's set up a conversation and <span>develop our creativity</span> together?</FontTitle>
                 <FontParagraph>Advertise your brand organically within Dribbble’s design inspiration feed.</FontParagraph>

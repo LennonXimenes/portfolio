@@ -8,7 +8,7 @@ import { StyledAboutMeSection } from "./styled";
 
 export const AboutMeSection = () => {
     return (
-        <StyledAboutMeSection>
+        <StyledAboutMeSection id="home">
             <div>
                 <div className="picParagraph">
                     <img src="src\assets\LAX.jpeg" />

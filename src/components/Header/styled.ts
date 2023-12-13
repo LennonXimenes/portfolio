@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
+    position: fixed;
+
     height: 4.375rem;
     width: 100%;
 

@@ -9,7 +9,7 @@ export const ProjectSection = () => {
 
 
     return (
-        <StyledProjectSection>
+        <StyledProjectSection id="projects">
             <div className="titleParagraphProject">
                 <FontTitle>My projects</FontTitle>
                 <FontParagraph>Projects created at <span>Kenzie Academy</span></FontParagraph>

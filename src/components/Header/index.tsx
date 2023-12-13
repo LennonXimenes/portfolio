@@ -14,10 +14,10 @@ export const Header = () => {
                     <RiMenuAddFill size={30} color="white" />
                 </button> */}
                 <ul>
-                    <li><FontA href="#">Home</FontA></li>
-                    <li><FontA href="#">Projects</FontA></li>
-                    <li><FontA href="#">Contacts</FontA></li>
-                    <li><FontA href="#">Digital Media</FontA></li>
+                    <li><FontA href="#home">Home</FontA></li>
+                    <li><FontA href="#projects">Projects</FontA></li>
+                    <li><FontA href="#contacts">Contacts</FontA></li>
+                    <li><FontA href="#dm">Digital Media</FontA></li>
                 </ul>
             </StyledMenu>
         </StyledHeader>

@@ -5,7 +5,7 @@ import { FontParagraph, FontTitle } from "../../styles/typograph";
 
 export const Footer = () => {
     return (
-        <StyledFooter>
+        <StyledFooter id="dm">
             <div className="boxPicParagraphFooter">
                 <img src="src\assets\LAX.jpeg" />
                 <div className="boxTitleParagraphFooter">
