@@ -60,11 +60,9 @@ export interface Plan {
   collaborators: number
 }
 
-export interface Repository {
-  name: string;
+export interface Repository extends IRepo {
   language: string;
   description: string;
-  html_url: string;
 }
 
 export interface Irep {
