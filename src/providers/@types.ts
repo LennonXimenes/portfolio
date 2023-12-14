@@ -59,3 +59,14 @@ export interface Plan {
   private_repos: number
   collaborators: number
 }
+
+export interface Repository {
+  name: string;
+  language: string;
+  description: string;
+  html_url: string;
+}
+
+export interface Irep {
+  rep: Repository;
+}

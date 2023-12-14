@@ -23,3 +23,5 @@ LAX.jpeg
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

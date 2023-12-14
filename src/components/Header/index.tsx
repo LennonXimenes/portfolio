@@ -3,10 +3,11 @@ import { FontA, FontTitle } from "../../styles/typograph";
 import { StyledHeader, StyledMenu } from "./styled";
 import { CiMenuBurger } from "react-icons/ci";
 
+
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [showButton, setShowButton] = useState(true);
-    const menuRef = useRef(null);
+    const menuRef = useRef<HTMLDivElement>(null);
 
     const handleResize = () => {
         if (window.innerWidth <= 767) {
@@ -21,7 +22,7 @@ export const Header = () => {
     useEffect(() => {
         handleResize();
         window.addEventListener("resize", handleResize);
-        
+
         document.addEventListener("click", handleOutsideClick);
         return () => {
             window.removeEventListener("resize", handleResize);
@@ -33,8 +34,8 @@ export const Header = () => {
         setIsOpen(!isOpen);
     };
 
-    const handleOutsideClick = (e) => {
-        if (menuRef.current && !menuRef.current.contains(e.target)) {
+    const handleOutsideClick = (e: MouseEvent) => {
+        if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
             setIsOpen(false);
         }
     };

@@ -18,7 +18,7 @@ export const StyledHeader = styled.header`
     }
 `;
 
-export const StyledMenu = styled.nav`
+export const StyledMenu = styled.nav<{ isOpen: boolean }>`
     display: flex;
     flex-direction: row;
     justify-content: center;
