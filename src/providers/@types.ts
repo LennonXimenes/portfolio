@@ -1,10 +1,6 @@
 export interface IRepoContext {
-  repos: IRepo[]
-  setRepos: React.Dispatch<React.SetStateAction<IRepo[]>>
-}
-
-export interface IRepoProviderProps {
-  children: React.ReactNode;
+  repos: IRepo[];
+  setRepos: React.Dispatch<React.SetStateAction<IRepo[]>>;
 }
 
 export interface IRepoProviderProps {
@@ -54,10 +50,10 @@ export interface IRepo {
 }
 
 export interface Plan {
-  name: string
-  space: number
-  private_repos: number
-  collaborators: number
+  name: string;
+  space: number;
+  private_repos: number;
+  collaborators: number;
 }
 
 export interface Repository extends IRepo {
