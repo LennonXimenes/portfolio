@@ -5,7 +5,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { StyledAboutMeSection } from "./styled";
-import LAX from "src/assets/LAX.jpeg";
+import LAX from "../../assets/LAX.jpeg";
 
 
 export const AboutMeSection = () => {
