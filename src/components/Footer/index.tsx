@@ -2,12 +2,13 @@ import { StyledFooter } from "./styled"
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { FontParagraph, FontTitle } from "../../styles/typograph";
+import LAX from "./../../assets/LAX.jpeg";
 
 export const Footer = () => {
     return (
         <StyledFooter id="dm">
             <div className="boxPicParagraphFooter">
-                <img src="src\assets\LAX.jpeg" />
+                <img src={LAX} />
                 <div className="boxTitleParagraphFooter">
                     <FontTitle>Thank you!</FontTitle>
                     <FontParagraph>Follow me on my social networks and let's talk</FontParagraph>

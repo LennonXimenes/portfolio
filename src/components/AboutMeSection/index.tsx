@@ -5,13 +5,15 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { StyledAboutMeSection } from "./styled";
+import LAX from "./../../assets/LAX.jpeg";
+
 
 export const AboutMeSection = () => {
     return (
         <StyledAboutMeSection id="home">
             <div>
                 <div className="picParagraph">
-                    <img src="src\assets\LAX.jpeg" />
+                    <img src={LAX} />
                     <FontParagraph>Hello, my name is Lennon!</FontParagraph>
                 </div>
                 <FontTitle>I <span>love</span> creating and <span>developing</span> projects</FontTitle>
