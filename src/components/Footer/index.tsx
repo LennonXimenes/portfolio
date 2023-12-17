@@ -2,7 +2,7 @@ import { StyledFooter } from "./styled"
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { FontParagraph, FontTitle } from "../../styles/typograph";
-import LAX from "./../../assets/LAX.jpeg";
+import LAX from "src/assets/LAX.jpeg";
 
 export const Footer = () => {
     return (
