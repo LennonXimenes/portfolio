@@ -230,6 +230,32 @@ export const StyledProjectSection = styled.section`
         }
     }
 
+    @media (min-width: 1600px){
+
+    ul {
+        height: auto;
+        width: 75%;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        li {
+            height: 14.375rem;
+            width: 30rem;
+        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        
+        }
+    }
+    }
 }
 
 `

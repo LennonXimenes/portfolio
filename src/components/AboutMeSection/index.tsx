@@ -17,7 +17,7 @@ export const AboutMeSection = () => {
                     <FontParagraph>Hello, my name is Lennon!</FontParagraph>
                 </div>
                 <FontTitle>I <span>love</span> creating and <span>developing</span> projects</FontTitle>
-                <FontParagraph>Discover here in this environment, created especially for you, all my projects and technologies</FontParagraph>
+                <FontParagraph>Portfolio Under Construction: I'm working hard to showcase a selection of my best projects. Soon, you'll be able to view all of my work here. Thank you for your patience and stay tuned for updates!</FontParagraph>
                 <button><a href="https://github.com/LennonXimenes" target="_blank">See Projects</a></button>
             </div>
             <div className="techs">
